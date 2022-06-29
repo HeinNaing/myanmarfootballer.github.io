@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+}
+.content{
+    
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftcontent{
+    display: inline-block;
+    width: 15%;
+    height: px;
+}
+.rightcontent{
+    display: inline-block;
+    width: 85%;
+    height: 800px;
+    
+}
+.h4{
+    
+}
+.leflinkdiv{
+    
+
+}
+.leftlinkli{
+
+}
+.leftlinkul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    display: table;
+    margin: 0 auto;
+}
+.controls{
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    color: rgba(49, 34, 34, 0.687);
+    padding: 9px;
+}
+.leftlinkli{
+
+}
+.leftlink{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    
+}
+.leftlinkul:last-child{
+    border-bottom: none;
+}
+
+.dropdownn{
+    position: relative;
+    display: inline-block;
+}
+.dropitemm{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+.dropitemm ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 12px 16px;
+    width: 150px;
+    border: 1px solid #ccc;
+}
+li a{
+    text-decoration: none;
+}
+.dropdownn:hover .dropitemm{
+    display: block;
+}
+.bottomm{
+    bottom: 0;
+}
+.maincontent{
+    height: 600px;
+}
+.notialert{
+    border: 3px solid rgb(35, 160, 160);
+    width: 500px;
+    color: rgb(37, 161, 37);
+    background-color: #C0C0C0;
+}
+div.notiibar{
+    width: 1000px;
+    margin: 0 auto;
+}
+.secondcarditem{
+    background-color: white;
+    float: left;
+    width: 250px;
+    margin: 15px;
+    height: 100px;
+
+}
+.thirdcarditem{
+    background-color: white;
+    float: left;
+    width: 530px;
+    margin: 15px;
+    height: 257px;
+
+}
+.thirdcarditemposition{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.thirdcarditemposition1{
+    
+    width: 500px;
+}
+h2{
+    margin-left: 15px;
+    padding-top: 17px;
+}
+.thirdbutton{
+    float: right;
+    margin-right: 25px;
+}
+div.thirdbutton button{
+    color: #6C757D;
+    border-radius: 5px;
+    border: none;
+}
+
+.copyrightlast{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 150px;
+}
+.dataelement{
+    margin-left: 475px; 
+    color: white; 
+    display: inline;
+}
+.dataelementsmallscreen{
+    margin-left: 15px;
+    display: none;
+    color: white; 
+}
+.copyrightlast1{
+    margin-top: 670px;
+    display: none;
+
+    
+}
+@media (max-width:991px) {
+    .rightcontent{
+        height: 800px;
+    }
+    .maincontent{
+        height: 1400px;
+    }
+    .leftlinkul{
+        width: 50px;
+    }
+    div.notiibar{
+        width: auto;
+    }
+    .secondcarditem{
+        width: 95%;
+    }
+    .copyrightlast{
+        display: none;
+    }
+    .copyrightlast1{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1f1f1;
+        height: 50px;
+        display: block;
+    }
+    .thirdcarditem{
+        width: 95%
+    }
+    .thirdcarditemposition1{
+        width: 95%
+    }
+    .dataelement{
+        display: none;
+        margin: 0 0 ;
+    }
+    .dataelementsmallscreen{
+        display: block;
+    }
+}
